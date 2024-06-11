@@ -10,7 +10,7 @@
     "clean": "del-cli ./build/*",
     "prebuild": "npm run clean",
     "build": "tsc",
-    "publish": "git add . && git commit -m 'Update' && npm version patch && npm publish"
+    "pub": "git add . && git commit -m 'Update' && npm version patch && npm publish"
   },
   "keywords": [],
   "author": "",
