@@ -11,3 +11,5 @@ export * from './middlewares/require-auth';
 export * from './middlewares/validate-request';
 
 export * from './events';
+
+export * from './events/types';
